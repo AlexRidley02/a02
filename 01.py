@@ -45,5 +45,44 @@ def run_tests():
 
 
 def season(month):
+    
+    if month.upper() == "JAN":
+        print("Winter")
 
+    elif month.upper() == "FEB":
+        print("Winter")
 
+    elif month.upper() == "MAR":
+        print("Spring")
+
+    elif month.upper() == "APR":
+        print("Spring")
+
+    elif month.upper() == "MAY":
+        print("Spring")
+
+    elif month.upper() == "JUN":
+        print("Summer")
+
+    elif month.upper() == "JUL":
+        print("Summer")    
+
+    elif month.upper() == "AUG":
+        print("Summer")
+
+    elif month.upper() == "SEP":
+        print("Autumn")
+
+    elif month.upper() == "OCT":
+        print("Autumn")
+
+    elif month.upper() == "NOV":
+        print("Autumn")
+
+    elif month.upper() == "DEC":
+        print("Winter")
+
+    else:
+        print("Month not recognised")
+
+    
